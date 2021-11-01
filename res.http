@@ -1,0 +1,19 @@
+@本地Ip=127.0.0.1:8080
+###
+GET http://{{本地Ip}}/api/greeting HTTP/1.1
+Authorization: Basic user 4c4a7c26-f02b-4397-b160-b3763f1332a2
+
+###
+POST http://{{本地Ip}}/api/greeting?name=cancan HTTP/1.1
+Authorization: Basic user 12345678
+Content-Type: application/json
+
+{
+    "gender":"男",
+    "idNo":"18519329337"
+}
+
+###
+PUT http://{{本地Ip}}/api/greeting/can HTTP/1.1
+Authorization: Basic user 7dee5c6d-423a-4d80-b164-bc0a883a0092
+
