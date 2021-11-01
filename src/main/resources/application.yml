@@ -10,11 +10,6 @@ logging:
               %clr([%8.15t]){cyan} %clr(%-40.40logger{0}){blue} %clr(:){red} %clr(%m){faint}%n'
 
 spring:
-  security:
-    user:
-      name: user
-      password: 12345678
-      roles: USER,ADMIN
   messages:
     encoding: GBK
     basename: message
