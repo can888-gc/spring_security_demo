@@ -17,3 +17,12 @@ Content-Type: application/json
 PUT http://{{本地Ip}}/api/greeting/can HTTP/1.1
 Authorization: Basic user 7dee5c6d-423a-4d80-b164-bc0a883a0092
 
+### 
+POST http://{{本地Ip}}/authorize/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"user",
+    "password":"1234567"
+}
+
